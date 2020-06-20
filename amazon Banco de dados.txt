@@ -1,0 +1,14 @@
+create database amazon;
+use amazon;
+create table clientes(
+id int auto_increment primary key ,
+nome varchar(255),
+idade varchar(255),
+senha varchar(255),
+email varchar(255) unique
+);
+insert into clientes(nome, idade, senha, email) values
+('João Vitor Carvalho','16','biririri987','joao@gmail.com'),
+('Gabriel Santana','14','senha123','gabriel@gmail.com'),
+('Letícia Oliveira','23','qwerty1','le@gmail.com'),
+('Sofia Gonçalves','32','Kjhg21','sonhos@gmail.com');
